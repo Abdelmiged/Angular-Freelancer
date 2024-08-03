@@ -1,0 +1,18 @@
+.navbar {
+    background-color: rgb(44, 62, 80);
+    transition: padding 0.6s ease;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar-brand,
+.nav-link {
+    cursor: pointer;
+}
+
+.active-link {
+    background-color: rgb(26, 188, 156);
+    border-radius: .5rem;
+}

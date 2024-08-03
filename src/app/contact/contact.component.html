@@ -1,0 +1,24 @@
+<section class="contact-section pt-4">
+    <app-header-star headerValue="conatct section" generalColor="rgb(44, 62, 80)" starBackgroundColor="rgb(255, 255, 255)"></app-header-star>
+    <div class="container-fluid container-md">
+        <form class="d-flex flex-column mx-auto mt-5">
+            <div class="username-container position-relative">
+                <label for="username" class="position-absolute">userName:</label>
+                <input id="username" class="form-control p-2" type="text" name="username" placeholder="userName" (input)="showLabel($event)">
+            </div>
+            <div class="userage-container position-relative">
+                <label for="userage" class="position-absolute">userAge:</label>
+                <input id="userage" class="form-control p-2" type="number" name="userage" placeholder="userAge" (input)="showLabel($event)">
+            </div>
+            <div class="useremail-container position-relative">
+                <label for="useremail" class="position-absolute">userEmail:</label>
+                <input id="useremail" class="form-control p-2" type="email" name="useremail" placeholder="userEmail" (input)="showLabel($event)">
+            </div>
+            <div class="userpassword-container position-relative">
+                <label for="userpassword" class="position-absolute">userPassword:</label>
+                <input id="userpassword" class="form-control p-2" type="password" name="userpassword" placeholder="userPassword" (input)="showLabel($event)">
+            </div>
+            <button type="submit" class="btn text-white" (click)="submitButton($event)">Send Message</button>
+        </form>
+    </div>
+</section>

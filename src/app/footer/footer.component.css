@@ -1,0 +1,28 @@
+.footer-info {
+    background-color: rgb(44, 62, 80);
+}
+
+.footer-info {
+    padding: 2.5rem;
+}
+
+.footer-info__social-circle {
+    width: 2.375rem;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+    border-style: solid;
+    border-color: white;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.footer-info__social-circle:hover {
+    background-color: rgb(26, 188, 156);
+}
+
+.footer-copyright {
+    background-color: rgb(26, 37, 47);
+
+    p {
+        color: #f0f8ff;
+    }
+}

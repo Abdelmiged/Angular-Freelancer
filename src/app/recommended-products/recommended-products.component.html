@@ -1,0 +1,13 @@
+<div class="row g-5">
+    @for(product of productsList; track $index) {
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="portfolio-section__image-card position-relative rounded-3 bg-danger" style="--bs-bg-opacity: 0.25;">
+                <img class="w-100 rounded-3" [src]="product.image" alt="wooden hut">
+                <div class="p-2">
+                    <h3 class="fs-5">Name: <span class="text-capitalize">{{product.name}}</span></h3>
+                    <span>Price: {{product.price}}</span>
+                </div>
+            </div>
+        </div>
+    }
+</div>

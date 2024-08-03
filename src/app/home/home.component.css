@@ -1,0 +1,11 @@
+.home-section {
+    background-color: rgb(26, 188, 156);
+}
+
+.home-section__card {
+    padding: 2.25rem;
+
+    img {
+        width: 15.625rem;
+    }
+}
