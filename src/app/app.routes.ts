@@ -7,11 +7,11 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
 export const routes: Routes = [
-    {path: "home", component: HomeComponent},
-    {path: "about", component: AboutComponent},
-    {path: "portfolio", component: PortfolioComponent},
-    {path: "contact", component: ContactComponent},
-    {path: "gallery", component: GalleryComponent},
+    {path: "home", component: HomeComponent, title: "Home"},
+    {path: "about", component: AboutComponent, title: "About"},
+    {path: "portfolio", component: PortfolioComponent, title: "Portfolio"},
+    {path: "contact", component: ContactComponent, title: "Contact"},
+    {path: "gallery", component: GalleryComponent, title: "Gallery"},
     {path: "", redirectTo: "home", pathMatch: "full"},
-    {path: "**", component: NotFoundComponent}
+    {path: "**", component: NotFoundComponent, title: "Not Found"}
 ];
